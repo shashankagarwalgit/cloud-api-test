@@ -1,9 +1,6 @@
 const fs = require('fs');
 const express = require('express');
-const status = require('express-status-monitor');
 const app = express();
-
-app.use(status());
 
 app.use(express.json());
 
