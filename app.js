@@ -21,6 +21,6 @@ app.get("/hello", (req,res)=>{
 }
 );
 
-app.listen(3000, ()=>{
-    console.log("Server started at 3000");
+app.listen(443, ()=>{
+    console.log("Server started at 443");
 });
